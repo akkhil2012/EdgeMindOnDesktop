@@ -1,0 +1,81 @@
+# Dependencies
+node_modules/
+
+# Build output
+out/
+dist/
+
+# electron-builder output
+release/
+
+# Models (large binary files — add individually if needed)
+models/*.gguf
+models/*.onnx
+models/*.bin
+models/*.npz
+models/*.faiss
+
+# Audit log & user data
+*.jsonl
+*.db
+*.sqlite
+
+# LoRA adapter weights
+lora_adapter.bin
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Data (raw corpora)
+data/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# OS key/cert files
+*.pem
+*.key
+*.p12
